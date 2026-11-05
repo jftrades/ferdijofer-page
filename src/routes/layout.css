@@ -1,0 +1,10 @@
+@import 'tailwindcss';
+
+@theme {
+    --font-sans: "Zalando Sans Expanded Variable", sans-serif;
+    --color-brand: #6400D1;
+}
+
+* {
+    font-family: var(--font-sans);
+}
