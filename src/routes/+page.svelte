@@ -7,7 +7,7 @@
 
 <svelte:head>
 	<title>Ferdi Jofer</title>
-	<meta name="description" content="Ferdi Jofer - Produkte, Ideen und Alltag." />
+	<meta name="description" content="Ich bin Ferdi, studiere Wirtschaftsinformatik an der TUM und gebe beim Sport gern alles." />
 </svelte:head>
 
 <main class="relative min-h-screen overflow-hidden bg-black font-sans">
@@ -49,10 +49,13 @@
 			style="animation-delay: 160ms;"
 		>
 			<div class="grid gap-4">
-				<div>
+				<div class="space-y-3">
 					<p class="brand-intro max-w-lg text-left text-sm text-white/92 md:text-base">
-						Hi, ich bin Ferdi. Ich baue mit dir coole Sachen und nehme dich ehrlich zwischen Uni,
-						Gym und Alltag mit.
+						Ich studiere Wirtschaftsinformatik an der <a href="https://www.tum.de/" class="underline underline-offset-2">TUM</a>.
+						Beim Sport schieße ich mich gerne mal komplett ab.
+					</p>
+					<p class="brand-intro max-w-lg text-left text-sm text-white/92 md:text-base">
+						Zwischen Uni, Arbeit, Gym, Laufen und Radfahren versuche ich mit dir, nicht komplett Crashout zu gehen.
 					</p>
 				</div>
 				<div class="grid gap-2">
