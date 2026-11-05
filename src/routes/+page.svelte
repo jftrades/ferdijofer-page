@@ -3,6 +3,7 @@
 	import InstagramLogo from '$lib/assets/insta logo.jpg';
 	import TiktokLogo from '$lib/assets/tt logo.jpg';
 	import YoutubeLogo from '$lib/assets/youtube logo.jpg';
+	import StravaLogo from '$lib/assets/strava.png';
 </script>
 
 <svelte:head>
@@ -107,6 +108,23 @@
 							class="relative z-10 h-6 w-6 rounded-md border border-white/30 object-cover"
 						/>
 						<span class="relative z-10 text-sm font-semibold">YouTube</span>
+						<span aria-hidden="true" class="ml-auto text-white/75">&#8599;</span>
+					</a>
+
+					<a
+						href="https://strava.app.link/gilxlp41O7b"
+						target="_blank"
+						rel="noreferrer"
+						aria-label="Strava"
+						class="glass-field group relative flex min-h-11 w-full items-center gap-3 px-3 py-2 overflow-hidden rounded-[0.75rem] border border-white/24 bg-white/16 text-white shadow-lg shadow-black/10 backdrop-blur-xl transition-all duration-300 focus-visible:outline-2 focus-visible:outline-white hover:border-white/55 hover:bg-white/24"
+					>
+						<img
+							src={StravaLogo}
+							alt=""
+							aria-hidden="true"
+							class="relative z-10 h-6 w-6 rounded-md border border-white/30 object-cover"
+						/>
+						<span class="relative z-10 text-sm font-semibold">Strava</span>
 						<span aria-hidden="true" class="ml-auto text-white/75">&#8599;</span>
 					</a>
 				</div>
