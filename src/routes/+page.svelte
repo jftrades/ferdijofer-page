@@ -166,7 +166,7 @@
 	}
 
 	.background-strip {
-		top: -3%;
+		top: -15%;
 		bottom: 0;
 		min-width: 100vw;
 	}
@@ -180,7 +180,7 @@
 
 	@media (max-width: 767px) {
 		.background-strip {
-			top: -5%;
+			top: -16%;
 			bottom: 0;
 			left: 50%;
 			min-width: auto;
